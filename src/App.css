@@ -1,0 +1,8 @@
+li {
+  display: flex;
+}
+
+li > span:not(:last-child) {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
